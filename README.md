@@ -8,6 +8,8 @@ CLion远程调试VM CentOS 8.2
 
 CentOS 8.2 安装lldb： `dnf install lldb`
 
+valgrind 内存检测神器
+
 # Content
 
 - main.c   (Hello World)
