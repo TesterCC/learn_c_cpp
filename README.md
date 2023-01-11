@@ -40,5 +40,7 @@ C不像java只有有main旁边就有一个运行图标供你运行，在CLion中
 ```
 add_executable(名字 源码)
 
+这样可以在一个目录下放多个包含main函数的.c文件，方便学习和练习
+
 可参考本项目 CMakeLists.txt
 ```
