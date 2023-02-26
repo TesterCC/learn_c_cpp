@@ -6,5 +6,6 @@
 int main()
 {
     double a,b,t;
-
 }
+
+
