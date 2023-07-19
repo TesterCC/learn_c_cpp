@@ -1,8 +1,10 @@
 # Read Me
 
-CentOS 8.2 + gcc + g++ + gdb 的C/C++开发环境，gdb版本不能太低，否则CLion无法识别
+Kali2022.2/CentOS 8.2 + gcc + g++ + gdb + cmake 的C/C++开发环境，gdb版本不能太低，否则CLion无法识别
 
 # 开发方式
+
+CLion远程调试VM Kali 2022.2
 
 CLion远程调试VM CentOS 8.2
 
