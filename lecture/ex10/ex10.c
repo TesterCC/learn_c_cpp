@@ -50,7 +50,7 @@ int main(int argc, char *argv[]) {
                     printf("%d: 'Y'\n", i);
                 }
                 break;
-
+            // always need default branch
             default:
                 printf("%d: %c is not a vowel\n", i, letter);
         }
