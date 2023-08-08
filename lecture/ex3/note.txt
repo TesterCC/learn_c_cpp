@@ -1,6 +1,9 @@
 # build with Make file
 make ex3
 
+# clear make build file
+make clean
+
 # manual compile cmd
 CFLAGS="-Wall -g" make ex3
 # -g add debugging symbol

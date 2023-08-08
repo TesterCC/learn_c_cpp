@@ -57,6 +57,6 @@ coverage.txt
 src/uncovered.txt
 
 cmake-build-debug
-cmake-build-debug-remote-host-centos82
-cmake-build-debug-remote-host---centos-82
+cmake-build-debug-remote-host
+cmake-build-debug-kali2022
 .idea
