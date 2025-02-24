@@ -2,7 +2,11 @@
 
 Kali2022.2/CentOS 8.2 + gcc + g++ + gdb + cmake 的C/C++开发环境，gdb版本不能太低，否则CLion无法识别
 
+MacOS gcc, debug use lldb
+
 # 开发方式
+
+CLion在MacOS Silicon上调试
 
 CLion远程调试VM Kali 2022.2
 
@@ -19,7 +23,7 @@ valgrind 内存检测神器
 
 # Video
 
-[中文字幕配套视频](https://www.bilibili.com/video/BV1KW411o7QF)
+[learn c the hard way - 中文字幕配套视频](https://www.bilibili.com/video/BV1KW411o7QF?p=13)
 
 ---
 
@@ -45,4 +49,23 @@ add_executable(名字 源码)
 这样可以在一个目录下放多个包含main函数的.c文件，方便学习和练习
 
 可参考本项目 CMakeLists.txt
+```
+
+# Makefile Usage
+```
+# build with Make file
+make ex3
+
+# clear make build file
+make clean
+
+# manual compile cmd
+CFLAGS="-Wall -g" make ex3
+# -g add debugging symbol
+
+# run with gdb
+gdb ./ex3
+
+# ex4 debug with gdb，带上所有参数，当退出时，打印所有的栈跟踪和回溯信息
+gdb --batch --ex run --ex bt --ex q --args ./ex3
 ```
