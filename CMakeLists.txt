@@ -31,4 +31,5 @@ add_executable(rkvir_re_c2 rkvir_re_c_basic/demo2.c)
 add_executable(lcsd learn_c_server_development_practice/test.c)
 #add_executable(sts smashing-the-stack/example1.c)
 add_executable(zero_day_sec zero_day_sec/1_4_crack_password.c)
-add_executable(apt_win apt_win/msgbox.c)
+add_executable(apt_win apt_win/msgbox.c
+        apt_win/msgboxtest.c)
