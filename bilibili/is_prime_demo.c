@@ -1,5 +1,6 @@
 //
 // ref: https://www.bilibili.com/video/BV1jsKRzjEMP/
+// 注意：用goto不是好习惯
 //
 
 
@@ -16,6 +17,7 @@ int main(void) {
     // 测试1-100中哪些数是质数
     int i = 0;
     int limit = 1000;
+// 这段代码虽然功能正确，但使用goto语句不是一种好的编程风格。在实际开发中，通常会使用for或while循环来替代goto。
 loop:
     if (isPrime(i)) {
         printf("%d is prime.\n", i);
