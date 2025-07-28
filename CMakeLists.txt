@@ -34,4 +34,5 @@ add_executable(zero_day_sec zero_day_sec/1_4_crack_password.c)
 add_executable(apt_win apt_win/msgbox.c
         apt_win/msgboxtest.c)
 add_executable(offensive_shellcode_from_scratch offensive_shellcode_from_scratch/example_of_shellcode/input_demo.c)
-
+#add_executable(bilibili bilibili/chicken_rabbit.c)
+add_executable(bilibili bilibili/bilibili/is_prime_demo.c)
