@@ -6,6 +6,7 @@
 
 #include <stdio.h>
 
+
 int factorial(int number) {
     // method 1
     int result = 1;
@@ -45,8 +46,4 @@ int main(void) {
     // printf("测试中文输出\n"); // output normal in linux, but can't display normal in windows
 
     printf("[TEST-02] !%i factorial is %i\n", i, factorial_new(i));
-
-    return 0;
 }
-
-
