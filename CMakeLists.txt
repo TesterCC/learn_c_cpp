@@ -37,5 +37,6 @@ add_executable(offensive_shellcode_from_scratch offensive_shellcode_from_scratch
 #add_executable(bilibili bilibili/chicken_rabbit.c)
 #add_executable(bilibili bilibili/bilibili/is_prime_demo.c)
 add_executable(bilibili bilibili/bilibili/is_prime_demo2.c)
-add_executable(bilibili bilibili/chicken_rabbit2.c)
-add_executable(bilibili bilibili/chicken_rabbit3.c)
+#add_executable(bilibili bilibili/bilibili/chicken_rabbit2.c)
+add_executable(bilibili bilibili/bilibili/chicken_rabbit3.c)
+add_executable(bilibili bilibili/bilibili/factorial.c)
